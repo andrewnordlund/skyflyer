@@ -107,5 +107,5 @@ function youWin () {
 	//alert ("You win!  Your score was " + timeE  + " seconds.");
 }
 
-window.addEventListener("keypress", checkKey, false);
+window.addEventListener("keydown", checkKey, false);
 window.addEventListener("load", init, false);
